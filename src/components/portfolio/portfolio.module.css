@@ -1,0 +1,42 @@
+.portfolio__inner{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 250px 10px 100px;
+    transition: all 0.5s;
+    scroll-behavior: smooth;
+    margin-bottom: 80px;
+
+}
+.portfolio__title{
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 2px;
+    vertical-align: baseline;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+.portfolio__title:after{
+    content:'';
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    top:60px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+
+}
+.portfolio__text{
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    font-family: 'Lato';
+    color:white;
+
+}

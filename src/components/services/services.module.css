@@ -1,0 +1,41 @@
+.services__inner{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 50px 10px;
+    transition: all 0.5s;
+    scroll-behavior: smooth;
+}
+.services__title{
+    font-family: 'Lato' ;
+    font-weight: bold;
+    color: #3a3a3a;
+    font-size: 60px;
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+
+}
+.services__title:after{
+    content:'';
+    height: 1px;
+    width: 200px;
+    background-color: #aca9a9;
+    position: absolute;
+    top:80px;
+    right: 35px;
+    opacity: 0.5;
+}
+.services__text{
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    color: #aca9a9;
+    padding-top: 10px;
+    margin-bottom: 60px;
+}
+.services__items{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(247, 247, 247)
+}

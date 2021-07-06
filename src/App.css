@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.top{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(http://wp-royal.com/cufo/hunter/wp-content/uploads/2015/07/resumebck.jpg);
+  min-width: 370px;
+
+
+}
+.services__background{
+  background-color:rgb(247, 247, 247)
+}
+.services__items{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1320px;
+  margin: 0 auto 80px;
+  padding-top: 40px ;
+  transition: all 0.5s;
+  scroll-behavior: smooth;
+
+}
+.statistic{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1320px;
+  margin: 0 auto;
+  transition: all 0.5s;
+  scroll-behavior: smooth;
+}
+.portfolio{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(http://wp-royal.com/cufo/hunter/wp-content/uploads/2015/07/picjumbo.com_HNCK7802-e1438928084989.jpg);
+  min-width: 370px;
+
+}
+.examples{
+  display: flex;
+  justify-content: space-between;
+
+}

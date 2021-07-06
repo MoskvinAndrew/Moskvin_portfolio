@@ -1,0 +1,35 @@
+.statistic__inner{
+ margin-bottom: 100px;
+}
+.statistic__digit{
+    color: #7a7a7a;
+    line-height: 1.3em;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 30px;
+    font-family: 'Lato';
+    margin-top: 20px;
+    position: relative;
+}
+.statistic__digit:after{
+    content:'';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: #b8b6b6;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top:60px;
+}
+.statistic__text{
+    margin-top:40px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: #3e3e3e;
+    font-size: 16px;
+    letter-spacing: 2px;
+    vertical-align: baseline;
+}

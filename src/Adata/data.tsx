@@ -25,8 +25,8 @@ export const allData = {
     },
     statisticItem:{
 
-        digit:[23934,56389,6789,2344],
-        staticText:["Pizzas Eaten","Projects Complete","Coffee Consumed","Happy Clients"],
+        digit:[23934,56389,6789,4545],
+        staticText:["Pizzas Eaten","Projects Complete","Coffee Consumed","Coffee Consumed"],
         order:[1,2,3,4]
 
     },

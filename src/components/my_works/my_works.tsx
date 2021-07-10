@@ -1,8 +1,14 @@
 import React from "react";
-import style from "./my_works.module.css"
+import style from "./my_works.module.css";
 import {Example} from "./example/example";
-import socialNetwork from './../../images/social-media.png'
-import socialNetwork2 from './../../images/social-network-png-free.png'
+import todolist from './../../images/todolist.png';
+import socialNetwork from './../../images/sNetwork.png';
+import cards from './../../images/cards.png';
+import carSharing from './../../images/carSharing.png';
+import ansys from './../../images/ansys.png';
+
+
+
 
 
 
@@ -13,38 +19,38 @@ export const My_works = () => {
             <div className={style.leftPannel}>
             <Example
                     height={'350'}
-                    picture={socialNetwork2}
-                    title={'gallery stacked'}
+                    picture={ansys}
+                    title={'Ansys landing page mark up.'}
 
                 />
             <Example
                 height={'650'}
-                picture={socialNetwork2}
-                title={'gallery stacked'}
+                picture={socialNetwork}
+                title={'Social Network'}
             />
 
         </div>
             <div className={style.centralPannel}>
             <Example
                 height={'650'}
-                picture={socialNetwork}
-                title={'gallery stacked'}
+                picture={cards}
+                title={'Educational Cards Project'}
             />
                 <Example
                     height={'350'}
-                    picture={socialNetwork}
-                    title={'gallery stacked'}
+                    picture={carSharing}
+                    title={'Car Sharing landing page mark up.'}
                 />
             </div>
             <div className={style.rightPannel}>
                 <Example
                     height={'500'}
-                    picture={socialNetwork}
-                    title={'gallery stacked'}
+                    picture={todolist}
+                    title={'todolist'}
                 />
                 <Example
                     height={'500'}
-                    picture={socialNetwork}
+                    picture={todolist}
                     title={'gallery stacked'}
                 />
             </div>

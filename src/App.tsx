@@ -9,6 +9,7 @@ import {Statistic__item} from "./components/statistic/statistic";
 import {Portfolio} from "./components/portfolio/portfolio";
 import {My_works} from "./components/my_works/my_works";
 import {allData} from './Adata/data'
+import {ContactForm} from "./components/form/contactForm";
 
 
 function App() {
@@ -25,20 +26,22 @@ function App() {
 
     return (
         <div className="App">
-            <Header/>
-
-            <div className="top">
+            <section>
+                <Header/>
+            </section>
+            <section className="top">
                 <Top
                     offSetY={offsetY}
                       topTitle={allData.top.topTitle}
                       topText={allData.top.topDescriptionText}
                 />
-            </div>
-            <Services
+            </section>
+            <section>
+                <Services
                 blockName={allData.services.blockName}
                 blockText={allData.services.blockText}
-            />
-            <div className='services__background'>
+            /></section>
+            <section className='services__background'>
                 <div className='services__items'>
                     <Item icon={faPaintBrush}
                           itemTitle={allData.servicesItem.itemTitle[0]}
@@ -53,8 +56,8 @@ function App() {
                           itemText={allData.servicesItem.itemText[0]}
                     />
                 </div>
-            </div>
-            <div className= 'statistic'>
+            </section>
+            <section className= 'statistic'>
                 <Statistic__item  icon={faCog}
                                   staticText={allData.statisticItem.staticText[0]}
                                   digit={allData.statisticItem.digit[0]}
@@ -71,8 +74,7 @@ function App() {
                                  staticText={allData.statisticItem.staticText[3]}
                                  digit={allData.statisticItem.digit[3]}
                                  order={allData.statisticItem.order[3]} />
-            </div>
-
+            </section>
             <section className='portfolio' >
                 <Portfolio offSetY={offsetY}
                            blockName={allData.portfolio.blockName}
@@ -81,7 +83,10 @@ function App() {
             </section>
             <section className='examples'>
                 <My_works/>
+            </section>
 
+            <section>
+                <ContactForm/>
             </section>
 
         </div>

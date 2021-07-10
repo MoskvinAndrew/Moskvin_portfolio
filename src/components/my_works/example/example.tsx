@@ -30,9 +30,9 @@ const StyledExampleInner = styled.div`
 `
 const StyledImg = styled.img`
   position: absolute;
-  top: 0;
+  top: 10%;
   right: 0;
-  bottom: 0;
+  //bottom: 0;
   left: 0;
   margin: auto;
   max-width:80%;
@@ -48,6 +48,7 @@ const StyledLink = styled.a`
   cursor:pointer;
   background-color: #cdcaca;
   padding-top: 20px;
+  text-transform: uppercase;
 
 
   font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;

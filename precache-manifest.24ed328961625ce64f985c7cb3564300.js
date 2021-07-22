@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "caea8a43f7fb4af8208760b2bd624c36",
+    "revision": "26d254fb23d042c5dc86e24ca7fbc316",
     "url": "/Moskvin_portfolio/index.html"
   },
   {
-    "revision": "aeff04e1a5b82291d796",
-    "url": "/Moskvin_portfolio/static/css/main.4c10253e.chunk.css"
+    "revision": "ba944eb7582431a20df0",
+    "url": "/Moskvin_portfolio/static/css/main.ba2bc72a.chunk.css"
   },
   {
-    "revision": "6a666f7de696578de5ae",
-    "url": "/Moskvin_portfolio/static/js/2.a7c61b4d.chunk.js"
+    "revision": "3398295145f798725336",
+    "url": "/Moskvin_portfolio/static/js/2.9423ec89.chunk.js"
   },
   {
     "revision": "5e7a3bbd1766925a2d65977472adeaa7",
-    "url": "/Moskvin_portfolio/static/js/2.a7c61b4d.chunk.js.LICENSE.txt"
+    "url": "/Moskvin_portfolio/static/js/2.9423ec89.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aeff04e1a5b82291d796",
-    "url": "/Moskvin_portfolio/static/js/main.ee45835a.chunk.js"
+    "revision": "ba944eb7582431a20df0",
+    "url": "/Moskvin_portfolio/static/js/main.6432b676.chunk.js"
   },
   {
     "revision": "4b34c5f2582cae1ee8b5",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Moskvin_portfolio/static/media/ansys.d8c6a1ba.png"
   },
   {
-    "revision": "de076b03ffca3c00388ff32587bd3026",
-    "url": "/Moskvin_portfolio/static/media/avatar.de076b03.jpg"
+    "revision": "1498c75440445172ca8d17ba0c49b142",
+    "url": "/Moskvin_portfolio/static/media/avatar.1498c754.jpg"
   },
   {
     "revision": "f643d5f30f7176caf56eefdbe3922c68",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1e01f0c0dea217ba568ebbcec49c5b6b",
     "url": "/Moskvin_portfolio/static/media/linkedin-in-brands.1e01f0c0.svg"
+  },
+  {
+    "revision": "d8cf77403db1c802576acc37627ff00b",
+    "url": "/Moskvin_portfolio/static/media/react-brands.d8cf7740.svg"
   },
   {
     "revision": "8e60f7f28f1f09e38c881cb386f3917c",

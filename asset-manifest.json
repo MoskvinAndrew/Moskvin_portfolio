@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/Moskvin_portfolio/static/css/main.4c10253e.chunk.css",
-    "main.js": "/Moskvin_portfolio/static/js/main.ee45835a.chunk.js",
-    "main.js.map": "/Moskvin_portfolio/static/js/main.ee45835a.chunk.js.map",
+    "main.css": "/Moskvin_portfolio/static/css/main.ba2bc72a.chunk.css",
+    "main.js": "/Moskvin_portfolio/static/js/main.6432b676.chunk.js",
+    "main.js.map": "/Moskvin_portfolio/static/js/main.6432b676.chunk.js.map",
     "runtime-main.js": "/Moskvin_portfolio/static/js/runtime-main.0a474280.js",
     "runtime-main.js.map": "/Moskvin_portfolio/static/js/runtime-main.0a474280.js.map",
-    "static/js/2.a7c61b4d.chunk.js": "/Moskvin_portfolio/static/js/2.a7c61b4d.chunk.js",
-    "static/js/2.a7c61b4d.chunk.js.map": "/Moskvin_portfolio/static/js/2.a7c61b4d.chunk.js.map",
+    "static/js/2.9423ec89.chunk.js": "/Moskvin_portfolio/static/js/2.9423ec89.chunk.js",
+    "static/js/2.9423ec89.chunk.js.map": "/Moskvin_portfolio/static/js/2.9423ec89.chunk.js.map",
     "index.html": "/Moskvin_portfolio/index.html",
-    "precache-manifest.f1e67b0b01e48469006861660fd40c90.js": "/Moskvin_portfolio/precache-manifest.f1e67b0b01e48469006861660fd40c90.js",
+    "precache-manifest.24ed328961625ce64f985c7cb3564300.js": "/Moskvin_portfolio/precache-manifest.24ed328961625ce64f985c7cb3564300.js",
     "service-worker.js": "/Moskvin_portfolio/service-worker.js",
-    "static/css/main.4c10253e.chunk.css.map": "/Moskvin_portfolio/static/css/main.4c10253e.chunk.css.map",
-    "static/js/2.a7c61b4d.chunk.js.LICENSE.txt": "/Moskvin_portfolio/static/js/2.a7c61b4d.chunk.js.LICENSE.txt",
+    "static/css/main.ba2bc72a.chunk.css.map": "/Moskvin_portfolio/static/css/main.ba2bc72a.chunk.css.map",
+    "static/js/2.9423ec89.chunk.js.LICENSE.txt": "/Moskvin_portfolio/static/js/2.9423ec89.chunk.js.LICENSE.txt",
     "static/media/ansys.png": "/Moskvin_portfolio/static/media/ansys.d8c6a1ba.png",
-    "static/media/avatar.jpg": "/Moskvin_portfolio/static/media/avatar.de076b03.jpg",
+    "static/media/avatar.jpg": "/Moskvin_portfolio/static/media/avatar.1498c754.jpg",
     "static/media/carSharing.png": "/Moskvin_portfolio/static/media/carSharing.f643d5f3.png",
     "static/media/cards.png": "/Moskvin_portfolio/static/media/cards.8e1cba54.png",
     "static/media/linkedin-in-brands.svg": "/Moskvin_portfolio/static/media/linkedin-in-brands.1e01f0c0.svg",
+    "static/media/react-brands.svg": "/Moskvin_portfolio/static/media/react-brands.d8cf7740.svg",
     "static/media/sNetwork.png": "/Moskvin_portfolio/static/media/sNetwork.8e60f7f2.png",
     "static/media/telegram-plane-brands.svg": "/Moskvin_portfolio/static/media/telegram-plane-brands.bdc0fc45.svg",
     "static/media/todolist.png": "/Moskvin_portfolio/static/media/todolist.493c5000.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0a474280.js",
-    "static/js/2.a7c61b4d.chunk.js",
-    "static/css/main.4c10253e.chunk.css",
-    "static/js/main.ee45835a.chunk.js"
+    "static/js/2.9423ec89.chunk.js",
+    "static/css/main.ba2bc72a.chunk.css",
+    "static/js/main.6432b676.chunk.js"
   ]
 }

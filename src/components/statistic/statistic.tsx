@@ -10,7 +10,8 @@ type statisticItemPropsType = {
     order:number
 }
 
-export const Statistic__item = (props:statisticItemPropsType) => {
+export const Statistic__item = React.memo((props:statisticItemPropsType) => {
+
     const colorIdent = (value:number) =>{
         if(value%2 == 0){
             return "#e5ae47"
@@ -49,4 +50,4 @@ export const Statistic__item = (props:statisticItemPropsType) => {
 
              </div>
        </div>)
-}
+})

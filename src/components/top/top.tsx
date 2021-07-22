@@ -8,7 +8,7 @@ type TopPropsTypes = {
     topText:string
 }
 
-export const Top = (props:TopPropsTypes) => {
+export const Top = React.memo((props:TopPropsTypes) => {
     return (
         <div className={style.top__inner}
              style={{transform:`translateY(${-props.offSetY * 0.1}px)`}}>
@@ -20,7 +20,7 @@ export const Top = (props:TopPropsTypes) => {
             </div>
 
             <div className={style.top__name}>
-                <h2>{props.topTitle}</h2>
+                <h1>{props.topTitle}</h1>
             </div>
 
             <div className={style.top__text}>
@@ -32,4 +32,4 @@ export const Top = (props:TopPropsTypes) => {
         </div>
     )
 
-}
+})

@@ -62,30 +62,17 @@ const StyledLink = styled.a`
   color: #3a3a3a;
   
 `
-const StyledSocialNetworkLink = styled.a`
+export const StyledSocialNetworkLink = styled.div`
     cursor:pointer;
     position: absolute;
     bottom: 20px;
     left: 180px;
     display: inline-block;
     transition: all 0.5s;
-  
-    
- 
-   
-    
-    
 `
-const StyledSocialNetworkImg = styled.img`
+export const StyledSocialNetworkImg = styled.img`
     width: 15px;
     margin: 5px 5px;
-    
-  
-    
-  
-    
-    
-    
 `
 
 export const Example = React.memo((props:any) => {
@@ -95,11 +82,11 @@ export const Example = React.memo((props:any) => {
         <StyledExampleInner {...props}>
 
              <StyledImg src={props.picture} className={'my_picture'}/>
-             <StyledLink href={"https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div"}>{props.title}</StyledLink>
+             <StyledLink href={props.link}>{props.title}</StyledLink>
             <StyledSocialNetworkLink className={'my_link'}>
 
-                <StyledSocialNetworkImg src={telegram} className={'my_picture'} />
-                <StyledSocialNetworkImg src={linkedIn} className={'my_picture'} />
+                <a href={"https://t.me/MoskvinAndrew"} ><StyledSocialNetworkImg src={telegram} className={'my_picture'} /></a>
+                <a href={"https://www.linkedin.com/in/andrew-moskvin-0090011a5/"}><StyledSocialNetworkImg src={linkedIn} className={'my_picture'} /></a>
 
             </StyledSocialNetworkLink>
         </StyledExampleInner>

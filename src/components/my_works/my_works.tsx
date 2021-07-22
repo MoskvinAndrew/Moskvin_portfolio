@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "./my_works.module.css";
 import {Example} from "./example/example";
 import todolist from './../../images/todolist.png';
@@ -8,50 +8,61 @@ import carSharing from './../../images/carSharing.png';
 import ansys from './../../images/ansys.png';
 
 
+type MyWorksPropsTypes = {
+    displayWidth:number;
+}
 
 
 
 
+export const My_works = React.memo((props:MyWorksPropsTypes) => {
 
-export const My_works = () => {
+    const {displayWidth} = props;
+
     return (
         <div className={style.myWorksInner}>
             <div className={style.leftPannel}>
             <Example
-                    height={'350'}
+                    height={displayWidth < 820?'350':"350"}
                     picture={ansys}
                     title={'Ansys landing page mark up.'}
+                    link={'https://moskvinandrew.github.io/lawyer-consulting-landing-page/'}
 
                 />
             <Example
-                height={'650'}
+                height={displayWidth < 820?'350':'650'}
                 picture={socialNetwork}
                 title={'Social Network'}
+                link={'https://moskvinandrew.github.io/lawyer-consulting-landing-page/'}
             />
 
         </div>
             <div className={style.centralPannel}>
             <Example
-                height={'650'}
+                height={displayWidth < 820?'350':'650'}
                 picture={cards}
                 title={'Educational Cards Project'}
+                link={'https://moskvinandrew.github.io/ReactReduxJSCardsProgect/#/login/'}
             />
                 <Example
-                    height={'350'}
+                    height={displayWidth < 820?'350':'350'}
                     picture={carSharing}
-                    title={'Car Sharing landing page mark up.'}
+                    title={'Car Sharing landing page .'}
+                    link={'https://moskvinandrew.github.io/car_sharing_landing/'}
                 />
             </div>
             <div className={style.rightPannel}>
                 <Example
-                    height={'500'}
+                    height={displayWidth < 820?'350':'500'}
                     picture={todolist}
                     title={'todolist'}
+                    link={'http://MoskvinAndrew.github.io/Todolist-_final_version/'}
                 />
                 <Example
-                    height={'500'}
+                    height={displayWidth < 820?'350':'500'}
                     picture={todolist}
                     title={'gallery stacked'}
+                    link={'http://MoskvinAndrew.github.io/Todolist-_final_version'}
                 />
             </div>
 
@@ -59,4 +70,4 @@ export const My_works = () => {
 
 
         </div>)
-}
+})

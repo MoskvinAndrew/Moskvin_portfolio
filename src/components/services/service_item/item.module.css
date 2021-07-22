@@ -1,5 +1,8 @@
 .item__inner{
     max-width:400px ;
+    min-width: 200px;
+    padding: 0px 10px;
+    width: 100%;
 
 }
 .item__logo{
@@ -15,21 +18,23 @@
     font-size: 32px;
     display: inline-block;
     margin-bottom: 40px;
+    padding-top: 10px;
 }
 .item__title{
     font-family: 'Raleway';
-    font-size: 18px;
+    font-size: 28px;
     letter-spacing: 2px;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: 700;
     color: #3e3e3e;
     position: relative;
+    color: #97989c;
 }
 .item__title:after{
     position: absolute;
     content: "";
     background-color:#e5ae47;
-    width: 50px;
+    width: 80px;
     height: 1px;
     top:40px;
     right:40%;

@@ -7,7 +7,7 @@ type portfolioPropsType = {
     blockText:string
 }
 
-export const Portfolio = (props:portfolioPropsType) => {
+export const Portfolio = React.memo((props:portfolioPropsType) => {
 
     return(
         <div className={style.portfolio__inner} style={{transform:`translateY(-${props.offSetY * 0.1}px)`}} >
@@ -18,4 +18,4 @@ export const Portfolio = (props:portfolioPropsType) => {
                 {props.blockText}
             </p>
         </div>)
-}
+})

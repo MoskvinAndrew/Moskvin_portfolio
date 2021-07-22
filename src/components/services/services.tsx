@@ -5,7 +5,7 @@ type ServicesPropsType = {
     blockName:string;
     blockText:string
 }
-export const Services = (props:ServicesPropsType) => {
+export const Services = React.memo((props:ServicesPropsType) => {
     return(
         <div className={style.services__inner}>
               <h2 className={style.services__title}>{props.blockName}</h2>
@@ -15,4 +15,4 @@ export const Services = (props:ServicesPropsType) => {
 
         </div>
     )
-}
+})

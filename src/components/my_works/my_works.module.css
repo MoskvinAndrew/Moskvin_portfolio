@@ -3,17 +3,17 @@
     margin: 0 auto;
     transition: all 0.5s;
     scroll-behavior: smooth;
-    /*margin-bottom: 80px;*/
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-
-
 }
 .leftPannel,
 .centralPannel,
 .rightPannel{
+    display: flex;
+    flex-direction: column;
     max-width: 400px;
+    min-width: 300px;
     width: 100%;
 }

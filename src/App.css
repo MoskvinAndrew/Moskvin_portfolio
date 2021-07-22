@@ -2,17 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 .top{
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0);
   background-image: url(http://wp-royal.com/cufo/hunter/wp-content/uploads/2015/07/resumebck.jpg);
-  min-width: 370px;
+  /*min-width: 370px;*/
 
 
 }
@@ -27,6 +23,7 @@
   padding-top: 40px ;
   transition: all 0.5s;
   scroll-behavior: smooth;
+  flex-wrap: wrap;
 
 }
 .statistic{
@@ -34,6 +31,7 @@
   justify-content: space-around;
   max-width: 1320px;
   margin: 0 auto;
+  flex-wrap: wrap;
   transition: all 0.5s;
   scroll-behavior: smooth;
 }
@@ -42,11 +40,15 @@
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0);
   background-image: url(http://wp-royal.com/cufo/hunter/wp-content/uploads/2015/07/picjumbo.com_HNCK7802-e1438928084989.jpg);
-  min-width: 370px;
+  /*min-width: 370px;*/
 
 }
 .examples{
   display: flex;
   justify-content: space-between;
 
+}
+.footer{
+  margin-top: 120px;
+  border-top: 1px solid #c4c0c0;
 }

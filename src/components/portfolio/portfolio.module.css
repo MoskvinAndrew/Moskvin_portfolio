@@ -7,6 +7,13 @@
     margin-bottom: 80px;
 
 }
+@media (max-width: 750px){
+    .portfolio__inner{
+        padding-top: 450px;
+        padding-bottom: 10px;
+    }
+}
+
 .portfolio__title{
     font-family: 'Lato';
     font-weight: bold;

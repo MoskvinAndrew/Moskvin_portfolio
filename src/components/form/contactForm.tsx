@@ -3,6 +3,7 @@ import styled,{css} from "styled-components";
 import { useFormik} from 'formik';
 import axios from "axios";
 import * as Yup from 'yup';
+import style from './contactForm.module.css'
 
 
 
@@ -66,7 +67,9 @@ const ButtonStyled = styled.button`
   }
 
 `
-
+// type ContactsFormPropsTypes = {
+//     displayLowWidth:boolean;
+// }
 
 export const ContactForm = () =>{
 
@@ -91,15 +94,9 @@ export const ContactForm = () =>{
         }),
 
         onSubmit:(values, {resetForm}) => {
-
-            console.log(values)
-            axios.post("https://gmail--nodejs--server.herokuapp.com/sendMessage",{
-                 values
-
-            })
+            axios.post("https://gmail--nodejs--server.herokuapp.com/sendMessage",{values})
             resetForm();
-
-        },
+            },
     });
     return (
 
@@ -111,10 +108,11 @@ export const ContactForm = () =>{
 
         <form onSubmit={formik.handleSubmit }>
             <label htmlFor="name"></label>
-            <DivStyled>
+
+
+            <DivStyled className={style.DivStyled}>
 
             <InputStyled
-                style={{marginRight:"20px"}}
                 placeholder='*Name'
                 id="name"
                 name="name"
@@ -122,6 +120,7 @@ export const ContactForm = () =>{
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 value={formik.values.name}
+                className={style.inputStyled}
             />
             {formik.touched.name && formik.errors.name ? (
                 <ErrorMessage>{formik.errors.name}</ErrorMessage>
@@ -144,6 +143,8 @@ export const ContactForm = () =>{
             ) : null}
 
             </DivStyled>
+
+
             <label htmlFor="subject"></label>
             <InputStyled
                 placeholder={"Subject"}

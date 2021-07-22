@@ -39,3 +39,9 @@
     justify-content: space-around;
     background-color:rgb(247, 247, 247)
 }
+@media (max-width: 650px){
+    .services__inner{
+        padding: 20px 10px;
+    }
+
+}

@@ -56,6 +56,29 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+.header__item_mobile{
+    margin: 0 auto;
+    list-style: none;
+    font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header__item_a{
+    list-style: none;
+    font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 .header__item:hover{
 
     opacity: 0.5;

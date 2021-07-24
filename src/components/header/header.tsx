@@ -14,20 +14,22 @@ export const Header = React.memo(() => {
             <div className={style.header__list_btn } onClick={onClickHandler}></div>
              {menuToggle && <div className={style.dropDownMenu}>
                  <ul className={style.dropDownUl}>
-                     <li className={style.header__item}>about</li>
-                     <li className={style.header__item}>services</li>
-                     <li className={style.header__item}>portfolio</li>
-                     <li className={style.header__item}>blog</li>
-                     <li className={style.header__item}>contact</li>
+                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#about'>about</a></li>
+                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#services'>services</a></li>
+                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#portfolio'>portfolio</a></li>
+                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#cv'>CV</a></li>
+                    <li className={style.header__item_mobile}><a className={style.header__item_a} href='#contact'>contacts</a></li>
+
                  </ul>
              </div>}
          </div>
             <ul className={style.header__list }>
-                <li className={style.header__item}>about</li>
-                <li className={style.header__item}>services</li>
-                <li className={style.header__item}>portfolio</li>
-                <li className={style.header__item}>blog</li>
-                <li className={style.header__item}>contact</li>
+                <li className={style.header__item}><a className={style.header__item_a} href='#about'>about</a></li>
+                <li className={style.header__item}><a className={style.header__item_a} href='#services'>services</a></li>
+                <li className={style.header__item}><a className={style.header__item_a} href='#portfolio'>portfolio</a></li>
+                <li className={style.header__item}><a className={style.header__item_a} href='#cv'>CV</a></li>
+                <li className={style.header__item}><a className={style.header__item_a} href='#contact'>contacts</a></li>
+
             </ul>
 
         </div>

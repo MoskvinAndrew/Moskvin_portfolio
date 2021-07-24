@@ -11,8 +11,9 @@ type TopPropsTypes = {
 export const Top = React.memo((props:TopPropsTypes) => {
     return (
         <div className={style.top__inner}
-             style={{transform:`translateY(${-props.offSetY * 0.1}px)`}}>
 
+             style={{transform:`translateY(${-props.offSetY * 0.1}px)`}}>
+            <a id='about'>
             <div className={style.top__avatarWrapper}>
             <div className={style.top__avatar}>
                 <img src={avatar} alt='avatar'/>
@@ -28,7 +29,7 @@ export const Top = React.memo((props:TopPropsTypes) => {
                     {props.topText}
                 </p>
             </div>
-
+</a>
         </div>
     )
 

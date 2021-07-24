@@ -15,6 +15,7 @@ import {allData} from './Adata/data'
 import {ContactForm} from "./components/form/contactForm";
 import {Footer} from "./components/footer/footer";
 import throttle from 'lodash.throttle';
+import {CV} from "./components/cv/cv";
 
 
 
@@ -107,8 +108,12 @@ function App() {
             <section className='examples'>
                 <My_works displayWidth={displayWidth}/>
             </section>
-            <section>
+            <section >
                 <ContactForm/>
+            </section>
+
+            <section>
+                <CV/>
             </section>
             <section className='footer'>
                 <Footer/>

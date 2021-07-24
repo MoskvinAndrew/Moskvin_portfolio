@@ -101,6 +101,7 @@ export const ContactForm = () =>{
     return (
 
         <StyledFormInner>
+            <a id='contact'>
             <H2styled>
                 LET'S KEEP IN TOUCH
             </H2styled>
@@ -174,6 +175,7 @@ export const ContactForm = () =>{
             </DivStyled>
             <ButtonStyled type="submit">Send Message</ButtonStyled>
         </form>
+            </a>
         </StyledFormInner>
     );
 }

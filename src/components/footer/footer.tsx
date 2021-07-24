@@ -30,8 +30,8 @@ export const Footer = () => {
             <NetworkLinkStyled className={'my_link'}>
 
                 <a href={"https://t.me/MoskvinAndrew"}><StyledSocialNetworkImg src={telegram} className={'my_picture'} /></a>
-                <><StyledSocialNetworkImg src={linkedIn} className={'my_picture'} /></>
-
+                {/*<><StyledSocialNetworkImg src={linkedIn} className={'my_picture'} /></>*/}
+                <a href={"https://www.linkedin.com/in/andrew-moskvin-0090011a5/"}><StyledSocialNetworkImg src={linkedIn} className={'my_picture'} /></a>
             </NetworkLinkStyled>
             <ParagraphStyled>Moskvin portfolio. 2021 ©</ParagraphStyled>
         </FooterStyledInner>

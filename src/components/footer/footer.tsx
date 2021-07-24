@@ -22,11 +22,24 @@ const ParagraphStyled = styled.p`
   text-transform: uppercase;
   text-decoration: none;
 `
+const DivStyled = styled.div`
+  display: flex;
+  justify-content: space-around;
+`
+const StyledP = styled.p`
+  font-size: 16px;
+  display: inline-block;
+  color: #3e3e3e;
+`
 
 
 export const Footer = () => {
     return(
         <FooterStyledInner>
+            <DivStyled>
+            <StyledP>tel:+79787914870(viber, whats app, telegram)</StyledP>
+            <StyledP>email:andrewmoskvin1@gmail.com</StyledP>
+            </DivStyled>
             <NetworkLinkStyled className={'my_link'}>
 
                 <a href={"https://t.me/MoskvinAndrew"}><StyledSocialNetworkImg src={telegram} className={'my_picture'} /></a>

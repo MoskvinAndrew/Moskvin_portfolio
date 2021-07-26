@@ -25,11 +25,15 @@ const ParagraphStyled = styled.p`
 const DivStyled = styled.div`
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 `
 const StyledP = styled.p`
+ max-width: 500px;
+  width: 100%;
   font-size: 16px;
-  display: inline-block;
+  display:inline-block;
   color: #3e3e3e;
+  
 `
 
 

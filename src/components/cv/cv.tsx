@@ -23,7 +23,7 @@ export const CV = () => {
         <StyledDiv>
             <a id='cv'>
             <StyledLink id="q1vv_q-download-resume"
-                        href="https://novoresume.com/file/pdf/resume/get/1627105385308b51c55a019ff11eb882da506f9de598fenAbx7yslwkr43qbA7rte1z0vde6t3b4esy37d2l1vi6997bpsoqoerdkg114qmzolqu0opv7tnpp7r3urw9eif7fptc1qu4iwf6motne6kyscv3w1t0ifzvhmsgezwmew4legmuyucu3ycs967xb0vd7d48jd0729dgys9m9r3nsgy77el7sp08rgny8beck7q95"
+                        href="https://www.dropbox.com/s/fksmno3tadd168r/Andrew%27s%20Resume%20_m.pdf?dl=0"
                         download="">
                 download my CV
             </StyledLink>

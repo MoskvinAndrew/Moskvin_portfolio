@@ -68,7 +68,7 @@
     text-transform: uppercase;
     text-decoration: none;
 }
-.header__item_a{
+li .header__item_a{
     list-style: none;
     font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 12px;
@@ -78,6 +78,7 @@
     font-style: normal;
     text-transform: uppercase;
     text-decoration: none;
+    color: inherit;
 }
 .header__item:hover{
 

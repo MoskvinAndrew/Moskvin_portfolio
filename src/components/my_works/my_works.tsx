@@ -33,7 +33,7 @@ export const My_works = React.memo((props:MyWorksPropsTypes) => {
                 height={displayWidth < 820?'350':'650'}
                 picture={socialNetwork}
                 title={'Social Network'}
-                link={'https://moskvinandrew.github.io/lawyer-consulting-landing-page/'}
+                link={'https://moskvinandrew.github.io/Profile/'}
             />
 
         </div>

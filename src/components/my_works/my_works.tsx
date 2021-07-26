@@ -33,7 +33,7 @@ export const My_works = React.memo((props:MyWorksPropsTypes) => {
                 height={displayWidth < 820?'350':'650'}
                 picture={socialNetwork}
                 title={'Social Network'}
-                link={'https://moskvinandrew.github.io/Profile/'}
+                link={'http://MoskvinAndrew.github.io/My_1First_.SocialNetwork_styding_progect/'}
             />
 
         </div>
@@ -56,13 +56,13 @@ export const My_works = React.memo((props:MyWorksPropsTypes) => {
                     height={displayWidth < 820?'350':'500'}
                     picture={todolist}
                     title={'todolist'}
-                    link={'http://MoskvinAndrew.github.io/Todolist-_final_version/'}
+                    link={'https://moskvinandrew.github.io/To_Do_List_Moskvin/'}
                 />
                 <Example
                     height={displayWidth < 820?'350':'500'}
                     picture={todolist}
                     title={'gallery stacked'}
-                    link={'http://MoskvinAndrew.github.io/Todolist-_final_version'}
+                    link={'https://moskvinandrew.github.io/To_Do_List_Moskvin/'}
                 />
             </div>
 

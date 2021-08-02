@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Moskvin_portfolio/static/css/main.a19fe960.chunk.css",
-    "main.js": "/Moskvin_portfolio/static/js/main.eef4293a.chunk.js",
-    "main.js.map": "/Moskvin_portfolio/static/js/main.eef4293a.chunk.js.map",
+    "main.js": "/Moskvin_portfolio/static/js/main.6414ff12.chunk.js",
+    "main.js.map": "/Moskvin_portfolio/static/js/main.6414ff12.chunk.js.map",
     "runtime-main.js": "/Moskvin_portfolio/static/js/runtime-main.bccd9503.js",
     "runtime-main.js.map": "/Moskvin_portfolio/static/js/runtime-main.bccd9503.js.map",
     "static/js/2.54ca882d.chunk.js": "/Moskvin_portfolio/static/js/2.54ca882d.chunk.js",
     "static/js/2.54ca882d.chunk.js.map": "/Moskvin_portfolio/static/js/2.54ca882d.chunk.js.map",
     "index.html": "/Moskvin_portfolio/index.html",
-    "precache-manifest.b17fc0440442a87f98f6fb9c6c12f48d.js": "/Moskvin_portfolio/precache-manifest.b17fc0440442a87f98f6fb9c6c12f48d.js",
+    "precache-manifest.c0005f0f13245be9b39bd56cd9809942.js": "/Moskvin_portfolio/precache-manifest.c0005f0f13245be9b39bd56cd9809942.js",
     "service-worker.js": "/Moskvin_portfolio/service-worker.js",
     "static/css/main.a19fe960.chunk.css.map": "/Moskvin_portfolio/static/css/main.a19fe960.chunk.css.map",
     "static/js/2.54ca882d.chunk.js.LICENSE.txt": "/Moskvin_portfolio/static/js/2.54ca882d.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.bccd9503.js",
     "static/js/2.54ca882d.chunk.js",
     "static/css/main.a19fe960.chunk.css",
-    "static/js/main.eef4293a.chunk.js"
+    "static/js/main.6414ff12.chunk.js"
   ]
 }

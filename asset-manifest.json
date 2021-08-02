@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Moskvin_portfolio/static/css/main.a19fe960.chunk.css",
-    "main.js": "/Moskvin_portfolio/static/js/main.0cffe5ed.chunk.js",
-    "main.js.map": "/Moskvin_portfolio/static/js/main.0cffe5ed.chunk.js.map",
-    "runtime-main.js": "/Moskvin_portfolio/static/js/runtime-main.0a474280.js",
-    "runtime-main.js.map": "/Moskvin_portfolio/static/js/runtime-main.0a474280.js.map",
-    "static/js/2.0a61131c.chunk.js": "/Moskvin_portfolio/static/js/2.0a61131c.chunk.js",
-    "static/js/2.0a61131c.chunk.js.map": "/Moskvin_portfolio/static/js/2.0a61131c.chunk.js.map",
+    "main.js": "/Moskvin_portfolio/static/js/main.eef4293a.chunk.js",
+    "main.js.map": "/Moskvin_portfolio/static/js/main.eef4293a.chunk.js.map",
+    "runtime-main.js": "/Moskvin_portfolio/static/js/runtime-main.bccd9503.js",
+    "runtime-main.js.map": "/Moskvin_portfolio/static/js/runtime-main.bccd9503.js.map",
+    "static/js/2.54ca882d.chunk.js": "/Moskvin_portfolio/static/js/2.54ca882d.chunk.js",
+    "static/js/2.54ca882d.chunk.js.map": "/Moskvin_portfolio/static/js/2.54ca882d.chunk.js.map",
     "index.html": "/Moskvin_portfolio/index.html",
-    "precache-manifest.8bc2c1d3d589fb68a74d7d45193a5245.js": "/Moskvin_portfolio/precache-manifest.8bc2c1d3d589fb68a74d7d45193a5245.js",
+    "precache-manifest.b17fc0440442a87f98f6fb9c6c12f48d.js": "/Moskvin_portfolio/precache-manifest.b17fc0440442a87f98f6fb9c6c12f48d.js",
     "service-worker.js": "/Moskvin_portfolio/service-worker.js",
     "static/css/main.a19fe960.chunk.css.map": "/Moskvin_portfolio/static/css/main.a19fe960.chunk.css.map",
-    "static/js/2.0a61131c.chunk.js.LICENSE.txt": "/Moskvin_portfolio/static/js/2.0a61131c.chunk.js.LICENSE.txt",
+    "static/js/2.54ca882d.chunk.js.LICENSE.txt": "/Moskvin_portfolio/static/js/2.54ca882d.chunk.js.LICENSE.txt",
     "static/media/ansys.png": "/Moskvin_portfolio/static/media/ansys.d8c6a1ba.png",
     "static/media/avatar.jpg": "/Moskvin_portfolio/static/media/avatar.1498c754.jpg",
     "static/media/carSharing.png": "/Moskvin_portfolio/static/media/carSharing.f643d5f3.png",
@@ -23,9 +23,9 @@
     "static/media/todolist.png": "/Moskvin_portfolio/static/media/todolist.493c5000.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a474280.js",
-    "static/js/2.0a61131c.chunk.js",
+    "static/js/runtime-main.bccd9503.js",
+    "static/js/2.54ca882d.chunk.js",
     "static/css/main.a19fe960.chunk.css",
-    "static/js/main.0cffe5ed.chunk.js"
+    "static/js/main.eef4293a.chunk.js"
   ]
 }

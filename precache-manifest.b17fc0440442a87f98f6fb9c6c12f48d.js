@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d065e62ebcd9c7a2f1de0db9f88e1965",
+    "revision": "5ca73f51a5aeab1f279afa40bcb67485",
     "url": "/Moskvin_portfolio/index.html"
   },
   {
-    "revision": "b87b555f88564317df07",
+    "revision": "aebf1557bda14c361d66",
     "url": "/Moskvin_portfolio/static/css/main.a19fe960.chunk.css"
   },
   {
-    "revision": "c244b3e32143ba991913",
-    "url": "/Moskvin_portfolio/static/js/2.0a61131c.chunk.js"
+    "revision": "15c3043de984e113cb62",
+    "url": "/Moskvin_portfolio/static/js/2.54ca882d.chunk.js"
   },
   {
     "revision": "5e7a3bbd1766925a2d65977472adeaa7",
-    "url": "/Moskvin_portfolio/static/js/2.0a61131c.chunk.js.LICENSE.txt"
+    "url": "/Moskvin_portfolio/static/js/2.54ca882d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b87b555f88564317df07",
-    "url": "/Moskvin_portfolio/static/js/main.0cffe5ed.chunk.js"
+    "revision": "aebf1557bda14c361d66",
+    "url": "/Moskvin_portfolio/static/js/main.eef4293a.chunk.js"
   },
   {
-    "revision": "4b34c5f2582cae1ee8b5",
-    "url": "/Moskvin_portfolio/static/js/runtime-main.0a474280.js"
+    "revision": "69d60c611d92e71ac8d7",
+    "url": "/Moskvin_portfolio/static/js/runtime-main.bccd9503.js"
   },
   {
     "revision": "d8c6a1ba58ae3c61e81c4a33d123b9b7",

@@ -6,7 +6,9 @@ export const Header = React.memo(() => {
     const onClickHandler = () =>{
         setMenuToggle(!menuToggle)
     }
-    console.log(menuToggle)
+
+
+
     return (
         <div className={style.header__inner}>
             <h1 className={style.header__title}>portfolio</h1>
@@ -14,11 +16,11 @@ export const Header = React.memo(() => {
             <div className={style.header__list_btn } onClick={onClickHandler}></div>
              {menuToggle && <div className={style.dropDownMenu}>
                  <ul className={style.dropDownUl}>
-                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#about'>about</a></li>
-                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#services'>services</a></li>
-                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#portfolio'>portfolio</a></li>
-                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#cv'>CV</a></li>
-                    <li className={style.header__item_mobile}><a className={style.header__item_a} href='#contact'>contacts</a></li>
+                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#about' onClick={onClickHandler}>about</a></li>
+                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#services'onClick={onClickHandler}>services</a></li>
+                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#portfolio'onClick={onClickHandler}>portfolio</a></li>
+                     <li className={style.header__item_mobile}><a className={style.header__item_a} href='#cv'onClick={onClickHandler}>CV</a></li>
+                    <li className={style.header__item_mobile}><a className={style.header__item_a} href='#contact'onClick={onClickHandler}>contacts</a></li>
 
                  </ul>
              </div>}

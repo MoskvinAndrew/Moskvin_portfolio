@@ -34,6 +34,6 @@ export const allData = {
     },
     portfolio:{
         blockName:'portfolio',
-        blockText:' Lorem ipsum ligula molestie ultricies fringilla nostra .'
+        blockText:''
     },
 }
